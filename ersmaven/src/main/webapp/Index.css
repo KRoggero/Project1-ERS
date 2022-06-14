@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sitka-text;
+}
+main{
+  height: 100vh;
+  background: url('https://myvistage.com/hub/wp-content/uploads/sites/4/2020/09/20_222_0093-Blog-Images-2020-Tech-Shift-1024x686-1.jpg') fixed no-repeat;
+  background-size: cover;
+}
+#container{
+  width: 350px;
+  height: 480px;
+  background: inherit;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -250px;
+  border-radius: 8px;
+}
+#container:before{
+  width: 400px;
+  height: 550px;
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  bottom: 0;
+  right: 0;
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
+  filter: blur(10px);
+}
+
+form img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+form{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+input[type="submit"]:hover{
+  background: #B366F4;
+}
+span a{
+  color: rgba(255,255,255, 0.8);
+}
